@@ -4,13 +4,13 @@
         <input type="number" class="form-control" name="cajaid" #cajaid>
 
         <label for="">Nombre</label>
-        <input type="string" class="form-control" name="cajanombre" #cajanombre>
+        <input type="text" class="form-control" name="cajanombre" #cajanombre>
 
         <label for="">Localidad</label>
-        <input type="string" class="form-control" name="cajalocalidad" #cajalocalidad>
+        <input type="text" class="form-control" name="cajalocalidad" #cajalocalidad>
 
         <br>
 
-        <button class="btn btn-success">Crear Departamento</button>
+        <button class="btn btn-success" (click)="insertDepartamento()">Crear Departamento</button>
     </form>
 </div>
